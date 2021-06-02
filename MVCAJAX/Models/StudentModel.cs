@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MVCAJAX.Models
 {
-    public class Student
+    public class StudentModel
     {
         public int ID { get; set; }
 
