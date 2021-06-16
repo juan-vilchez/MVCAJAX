@@ -26,19 +26,21 @@
             </div>
         </div>
     </div><hr />
-    <table id="tblStudent" class="table table-bordered table-striped table-responsive table-hover">
-        <thead>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <th align="left" class="productth">@item.ID</th>
-                    <th align="left" class="productth">@item.Name</th>
-                    <th align="left" class="productth">@item.Address</th>
-                </tr>
-            }
-        </thead>
-        <tbody></tbody>
-    </table>
+          <table id="tblStudent" class="table table-bordered table-striped table-responsive table-hover">
+              <thead>
+                  @foreach (var item in Model)
+                  {
+
+                  <tr>
+                      <th align="left" class="productth">@item.studentID</th>
+                      <th align="left" class="productth">@item.studentName</th>
+                      <th align="left" class="productth">@item.studentAddress</th>
+                  </tr>
+
+              }
+                  </thead>
+                  <tbody></tbody>
+              </table>
 </div>
 @section Scripts
 {

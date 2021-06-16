@@ -7,10 +7,10 @@ namespace MVCAJAX.Models
 {
     public class StudentModel
     {
-        public int ID { get; set; }
+        public int studentID { get; set; }
 
-        public string Name { get; set; }
+        public string studentName { get; set; }
 
-        public string Address { get; set; }
+        public string studentAddress { get; set; }
     }
 }
